@@ -12,7 +12,7 @@ for i in num_:
         r=requests.get(url).json()
         data.append(r)
 
-cred = credentials.Certificate('爬蟲/boblin.json')
+cred = credentials.Certificate('firebasekey.json')
 firebase_admin.initialize_app(cred)
 db = firestore.client()
 for obj in data:
