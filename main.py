@@ -5,7 +5,7 @@ from firebase_admin import credentials
 from firebase_admin import firestore
 import datetime
 
-num_=["001","005","009","013","017","021","025","029","033","037","041","045","049","053","057","061","065","069","073","077","081","085","089"]
+num_=["001","005"]
 data=[]
 for i in num_:
         url="https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-D0047-{}?Authorization=CWB-D98DF98F-D9C4-4B7F-8A3D-D615CB11BE84".format(i)
